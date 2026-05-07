@@ -1,9 +1,9 @@
 # import
 custom_imports = dict(
     imports=[
-        'projects.chr_project.components',
-        'projects.chr_project.models',
-        'projects.chr_project.hooks'
+        'projects.crri_project.components',
+        'projects.crri_project.models',
+        'projects.crri_project.hooks'
     ],
     allow_failed_imports=False)
 
