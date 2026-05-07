@@ -8,7 +8,7 @@ run_training() {
     export NCCL_DEBUG=INFO
 
     export MKL_NUM_THREADS=8
-    export PATH=~/.conda/envs/DD/bin:$PATH
+    export PATH=~/.conda/envs/sdgod/bin:$PATH
     # ./tools/dist_train.sh $CONFIG $GPUS
     ./tools/mod_train.sh $CONFIG $GPUS
 }

@@ -67,7 +67,7 @@ _base_.optim_wrapper = dict(
     clip_grad=dict(max_norm=5, norm_type=2),
 )
 
-train_cfg = dict(type='IterBasedTrainLoop', max_iters=30000, val_interval=1000, val_begin=1000)
+train_cfg = dict(type='IterBasedTrainLoop', max_iters=30000, val_interval=1000, val_begin=3000)
 
 custom_hooks = [
     dict(

@@ -8,7 +8,7 @@ run_test() {
     CHECKPOINT="Runtime/FRCNN_R101_FPN_DWD/iter_30000.pth"
     work_dir="Runtime/FRCNN_R101_FPN_DWD/"
     show_dir="Runtime/FRCNN_R101_FPN_DWD/show/"
-    export PATH=~/.conda/envs/DD/bin:$PATH
+    export PATH=~/.conda/envs/sdgod/bin:$PATH
     export PORT=29501
     export NCCL_IB_DISABLE=1
     export NCCL_P2P_DISABLE=1
