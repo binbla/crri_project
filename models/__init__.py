@@ -1,10 +1,10 @@
 from .backbone import CustomResNet, CLIPResNet
 from .detector import HookFasterRCNN
-from .backbone_hook import CHR
+from .backbone_hook import CRRI
 
 __all__ = [
     'CustomResNet',
     'CLIPResNet',
-    'CHR',
+    'CRRI',
     'HookFasterRCNN'
 ]
