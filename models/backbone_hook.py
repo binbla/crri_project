@@ -66,7 +66,7 @@ class CRRI(BaseModule):
             x_view = torch.nan_to_num(x_view, nan=0.0)
 
         if self.training or self.initialized:
-            noise = torch.randn_like(x_view) * self.eps
+            noise = (torch.rand_like(x_view) * 2 - 1) * self.eps
             x_for_sort = x_view + noise
         else:
             x_for_sort = x_view
